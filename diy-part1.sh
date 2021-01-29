@@ -20,3 +20,4 @@ sed -i '$a src-git kenzok https://github.com/kenzok8/openwrt-packages' feeds.con
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+git clone https://github.com/tuanqing/install-program package/install-program
